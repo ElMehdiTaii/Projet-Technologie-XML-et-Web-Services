@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<releve>
+    <operation type="CREDIT" date="2023-01-04T13:55:14.824+01:00" montant="12542.0" description="Vers Expece"/>
+    <operation type="DEBIT" date="2023-01-04T13:55:14.824+01:00" montant="23182.0" description="Cheque Guichet"/>
+    <operation type="CREDIT" date="2023-01-04T13:55:14.824+01:00" montant="23042.0" description="Prelevement"/>
+    <operation type="DEBIT" date="2023-01-04T13:55:14.824+01:00" montant="38842.0" description="Virement..."/>
+</releve>

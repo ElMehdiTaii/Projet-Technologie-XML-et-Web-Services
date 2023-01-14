@@ -1,0 +1,16 @@
+<!ELEMENT releve (dateReleve,solde,operations?) >
+<!ELEMENT operations (operation+) >
+<!ELEMENT operation EMPTY >
+<!ELEMENT dateReleve (#PCDATA) >
+<!ELEMENT solde (#PCDATA) >
+<!ATTLIST releve RIB NMTOKEN #REQUIRED >
+<!ATTLIST operations
+                    dateDebut CDATA #REQUIRED 
+                    dateFin CDATA #REQUIRED >
+<!ATTLIST operation 
+                   type (CREDIT|DEBIT) 'CREDIT'
+                   date CDATA #REQUIRED
+                   montant CDATA #REQUIRED
+                   description CDATA #REQUIRED >
+<!ENTITY dateReleve "2021-11-10" >
+<!ENTITY solde "14500" >
